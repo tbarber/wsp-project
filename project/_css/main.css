@@ -19,8 +19,8 @@ body {
 	position:  relative;
 }
 #header .anniversary {
-	background:  url(../_images/50_anniv.png) no-repeat center center;
-	width: 177px;
+	background: url(../_images/header.png) no-repeat center center;
+	width: 780px;
 	height: 113px;
 	position: absolute;
 	left: 170px;

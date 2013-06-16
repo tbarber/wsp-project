@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+div, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, li, dt, dd, address, blockquote {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 90%;
+}
+#header {
+	margin-bottom: 1em;
+	border-bottom: 2px solid #630;
+	margin-top: 1em;
+	position:  relative;
+}
+#header .anniversary {
+	background:  url(../_images/50_anniv.png) no-repeat center center;
+	width: 177px;
+	height: 113px;
+	position: absolute;
+	left: 170px;
+	top: 10px;
+}
+#header h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 3em;
+	color: #630;
+	font-weight: normal;
+}
+#header h2 {
+	font-size: 1.4em;
+	margin-bottom: .5em;
+}
+img.floatIMG {
+	float: left;
+	padding-right: 1em;
+}
+p {
+	font-size: .9em;
+	margin-bottom: 1em;
+}
+dt {
+	margin: 0 0 .5em;
+	font-size: .9em;
+	color: #630;
+	font-weight: bold;
+}
+dd {
+	margin: 0 0 1em;
+	font-size: .9em;
+	padding: 0;
+}
+#artwork h2 {
+	font-size: 1em;
+	color: #630;
+	margin-bottom: .5em;
+}
+.gallery img {
+	display: block;
+	margin-bottom: 0;
+}
+p.caption {
+	font-style: italic;
+	text-align: right;
+}
+#footer {
+	line-height: 50px;
+	text-align: center;
+	background: #630;
+	color: white;
+	font-size: 0.8em;
+	padding: 1em;
+	margin: 20px auto;
+}
+#footer a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #CC9;
+}
+
+.gallery {
+	width: 45%;
+	float: left;
+	margin-right: 5%;
+}
+
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}

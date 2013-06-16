@@ -1,0 +1,6 @@
+<!-- Standard JavaScript for Adaptive Images -->
+<script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
+
+<!-- JavaScript for Hi-Res Displays -->
+<script>document.cookie='resolution='+Math.max(screen.width,screen.height)+("devicePixelRatio" in window ? ","+devicePixelRatio : ",1")+'; path=/';</script>
+

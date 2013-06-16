@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/* CSS Document */
+#header .anniversary {
+		background: url(../_images/50_anniv@2.png) no-repeat center center;
+	-webkit-background-size:177px 113px;
+	-moz-background-size: 177px 113px;
+	background-size: 177px 113px;
+}
+

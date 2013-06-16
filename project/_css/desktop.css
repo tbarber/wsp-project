@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.gridContainer {
+	width: 89.0217%;
+	max-width: 1232px;
+	padding-left: 0.4891%;
+	padding-right: 0.4891%;
+	margin: auto;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#header {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#mainContent {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 32.6007%;
+	display: block;
+}
+#interview {
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 32.6007%;
+	display: block;
+}
+#artwork {
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 32.6007%;
+	display: block;
+}
+#footer {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 97%;
+	display: block;
+}
